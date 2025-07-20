@@ -11,6 +11,6 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/setupTests.js',
   },
-  base: '/dashboard/', // <-- important for GitHub Pages!
+  base: 'alx-react/dashboard/', // <-- important for GitHub Pages!
   plugins: [react(), ghPages()],
 })
